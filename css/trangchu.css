@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+header .admin h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+header .admin{
+    height: 75px;
+    background-color: #D9D9D9;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header .menu {
+    height: 60px;
+    background-color: #D9D9D9;
+}
+header .menu ul{
+    height: 60px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 75px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}

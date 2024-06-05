@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./font/Roboto-BoldItalic.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 1440px;
+}
+.container{
+    width: 1440px;
+    margin-left: 40px;
+    font-family: 'roboto';
+}
+header .menu-1{
+    display: flex;
+    height: 60px;   
+    background-color: #D9D9D9;
+    font-size: 13px;
+}
+header .menu-1 p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.dangky > a{
+    text-decoration: none;
+}
+.dangnhap > a{
+    text-decoration: none;
+}
+header .menu-1 .dangky{
+    margin-left: 960px;   
+}
+
+header .menu-1 .dangnhap{
+    margin-left: 20px;
+}
+header .menu-2{
+    height: 100px;
+    display: flex;
+}
+header .menu-2 .logo img{
+    width: 140px;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 180px
+}
+header .menu-2 ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+}
+header .menu-2 ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+    color: black;
+    -webkit-transition-duration: 0.5s; 
+    /* Safari */  
+    transition-duration: 0.5s;
+}
+header .menu-2 ul li a:hover{
+    color: red;
+    font-size: 25px;
+}
+header .timkiem{
+    margin-top: 35px;
+    margin-left: 200px;
+}
+.timkiem input{
+    width: 170px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 10px ;
+    border: 1px solid rgb(182, 178, 178);
+}
+.timkiem button{
+    height: 28px;
+    width: 70px;
+    border-radius: 10px ;
+    border: 1px solid rgb(182, 178, 178);
+}
+header .giohang{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+header .giohang img{
+    width: 30px;
+}
+.banner .slide{
+    display: none;
+}
+.dangky{
+    margin-top: 20px;
+}
+.dangnhap{
+    margin-top: 20px;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+h2:hover{
+    color: red;
+}
+.w13 img{
+    text-align: center;
+    /* margin-left: 40px; */
+    width: 250px;
+    height: 200px;
+}
+.w13{
+    text-align: center;
+    
+}
+.w13 button{
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: red;
+    color: aliceblue;
+    border: 1px solid red;
+    
+}
+.noidung1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+}
+main .noidung1 .w13 p{
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    font-size: 13px;
+    color: black;
+}
+main .noidung1 .w13{
+    color: red;
+    margin-top: 5px;
+    /* margin-left: 40px; */
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+main .noidung1 .w13 del{
+    color: black;
+    font-size: 12px;
+}
+main .noidung1 .w13 .block{
+    box-shadow: 0px 4px 3px 3px #D9D9D9 ;
+    border: 1px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 90px;
+}
+footer{
+    border: 0.5px solid #D9D9D9;
+    display: flex;
+    margin-top: 50px;
+}
+footer .logo-1 img{
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;  
+    margin-left: 50px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+footer .nd1{
+    margin-top: 85px;
+    margin-left: 100px;
+}
+footer .nd1 p{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+footer .nd2{
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 20px;
+}
+footer .nd2 h4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer .nd2 p{
+    margin-bottom: 20px;
+}
+.w13 input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px; 
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 11px;
+    background: red;
+    color: white;
+}
+.w13 input:hover{
+    width: 155px;
+    height: 35px;
+    border-radius: 15px; 
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-transition-duration: 0.8s;  
+    transition-duration: 0.8s;
+}

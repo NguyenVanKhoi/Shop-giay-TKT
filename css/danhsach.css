@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+header .admin h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+
+header .admin {
+    height: 75px;
+    background-color: #D9D9D9;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header .menu {
+    height: 60px;
+    background-color: #D9D9D9;
+    margin-bottom: 30px;
+}
+
+header .menu ul {
+    height: 60px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 75px;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.danh_sach_danh_muc {
+    background-color: #E3E3E3;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.danh_sach_danh_muc h1 {
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+form table thead tr th{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    align-items: center;
+}
+form table {
+    width: 100%;
+    background-color: #BFBDBD;
+    margin-bottom: 50px;
+}
+form table thead{
+    height: 70px;
+}
+form table tbody tr{
+    height: 100px;
+    align-items: center;
+    text-align: center;
+}
+form table tbody tr td{
+    font-size: 20px;
+    font-weight: lighter;
+}
+form table tbody tr td input{
+    width: 20px;
+    height: 20px;
+    background-color: #D9D9D9;
+}
+form a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #000000;
+}
+
+form .them {
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

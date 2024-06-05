@@ -1,0 +1,444 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('./font/Roboto-BoldItalic.ttf');
+}
+
+* {
+    margin: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 1440px;
+    margin-left: 40px;
+    font-family: 'roboto';
+}
+
+header .menu-1 {
+    display: flex;
+    height: 60px;
+    background-color: #D9D9D9;
+    font-size: 13px;
+}
+
+header .menu-1 p {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.dangky>a {
+    text-decoration: none;
+}
+
+.dangnhap>a {
+    text-decoration: none;
+}
+
+header .menu-1 .dangky {
+    margin-left: 960px;
+}
+
+.dangky {
+    margin-top: 20px;
+}
+
+.dangnhap {
+    margin-top: 20px;
+}
+
+header .menu-1 .dangnhap {
+    margin-left: 20px;
+}
+
+header .menu-2 {
+    height: 100px;
+    display: flex;
+}
+
+header .menu-2 .logo img {
+    width: 140px;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 150px
+}
+
+header .menu-2 ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 40px;
+}
+
+header .menu-2 ul li a {
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+header .menu-2 ul li a:hover {
+    color: red;
+    font-size: 25px;
+}
+
+header .timkiem {
+    margin-top: 35px;
+    margin-left: 200px;
+    display: flex;
+}
+
+header .timkiem img {
+    width: 30px;
+}
+
+header .giohang {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+header .giohang img {
+    width: 30px;
+}
+
+main .tong {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+main .nd1 {
+    margin-left: 70px;
+}
+
+main .nd1 .pro {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pro h3 {
+    margin-top: 20px;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+main .nd1 .color p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+main .nd1 .color .w1 {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+main .nd1 .color input {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+main .nd1 .size p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main .nd1 .number p {
+
+    margin-bottom: 30px;
+}
+
+main .nd1 .size .w2 {
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+main .nd1 .size input {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.slide {
+    display: none;
+}
+
+.number {
+    display: flex;
+}
+
+.number p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.timkiem input {
+    width: 170px;
+    height: 27px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 178, 178);
+}
+
+.timkiem button {
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(182, 178, 178);
+}
+
+.dh button {
+    width: 130px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: #D9D9D9;
+    background: #d5d5d5;
+
+}
+
+.cl {
+    margin-left: 100px;
+}
+
+.color .cl input {
+    width: 20px;
+    height: 20px;
+}
+
+.size .sz input {
+    width: 20px;
+    height: 20px;
+}
+
+.sz {
+    margin-left: 100px;
+}
+
+input {
+    margin-left: 20px;
+}
+
+.number input {
+    width: 25px;
+    height: 24px;
+    /* margin-left: 20px; */
+}
+
+.muasp {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.muasp button {
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: #D9D9D9;
+    background: #F4CBCB;
+}
+
+.muasp button:hover {
+    background: red;
+    font-size: 18px;
+    width: 190px;
+    height: 60px;
+    -webkit-transition-duration: 0.5s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+.muasp .w2 {
+    margin-right: 20px;
+}
+
+.nd1 form input .gsp {
+    margin-left: 50px;
+}
+
+.nd1 form .dh {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+
+.mota {
+    height: 60px;
+    width: 100%;
+    border: 1px solid #F2EBEB;
+    background: #F2EBEB;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    border: 0.5px solid #D9D9D9;
+    display: flex;
+    margin-top: 50px;
+}
+
+footer .logo-1 img {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 40px;
+    /* margin-right: 50px; */
+    margin-bottom: 60px;
+}
+
+footer .nd1 {
+    /* border: 1px solid black; */
+    margin-top: 85px;
+    /* margin-left: 80px; */
+}
+
+footer .nd1 p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer .nd2 {
+    /* border: 1px solid black; */
+    margin-top: 40px;
+    margin-left: 80px;
+    padding: 20px;
+}
+
+footer .nd2 h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .nd2 p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.w13 img {
+    text-align: center;
+    /* margin-left: 40px; */
+    width: 250px;
+    height: 200px;
+}
+
+.w13 button {
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: red;
+    color: aliceblue;
+    border: 1px solid red;
+
+}
+
+.w13 .block p {
+    /* padding-left: 20px; */
+    padding-right: 20px;
+    font-size: 13px;
+    color: black;
+}
+
+.w13 {
+    color: red;
+    margin-top: 5px;
+    /* margin-left: 40px; */
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.containerfullmr30 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.w13 del {
+    color: black;
+    font-size: 12px;
+}
+
+.w13 .block {
+    box-shadow: 0px 4px 3px 3px #D9D9D9;
+    border: 1px;
+
+    margin-bottom: 50px;
+    width: 250px;
+    height: 90px;
+}
+
+.w13 p {
+    text-align: center;
+}
+
+.w13 h3 {
+    text-align: center;
+}
+
+.w13 input {
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 11px;
+    background: red;
+    color: white;
+    margin-left: 40px;
+}
+
+.w13 input:hover {
+    width: 155px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid red;
+    font-weight: bold;
+    font-size: 14px;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.muasp input {
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #F4CBCB;
+    background: red;
+    color: white;
+    font-size: 20px;
+}
+
+.muasp input:hover {
+    width: 150px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 22px;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
